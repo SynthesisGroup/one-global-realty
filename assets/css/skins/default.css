@@ -1,0 +1,224 @@
+body h2 h1 h3 a li ul p h4 button {
+    font-family: Gotham, Regular;
+}
+
+p a {
+    color: white;
+}
+.theme-cl {
+    color:#ff4e00 !important;
+}
+.theme-bg {
+    background:#ff4e00;
+}
+.theme-btn {
+    background:#ff4e00;
+    border: 1px solid #ff4e00;
+}
+nav.navbar.bootsnav ul.nav > li >a.btn-signup.red-btn {
+    background: #ff4e00 !important;
+}
+.half-bg:before {
+    background: #ff4e00;
+}
+.footer .f-social-box ul li a i:hover, .footer .f-social-box ul li a i:focus {
+    background: #ff4e00;
+    border-color: #ff4e00;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #ff4e00;
+}
+.custom-checkbox input[type="checkbox"]:checked + label:before {
+    border-color: #ff4e00;
+    background: #ff4e00;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus, .pagination>li>a:hover, .pagination>li>a:focus {
+    background-color: #ff4e00;
+    border-color: #ff4e00;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus, .pagination>li>a:hover, .pagination>li>a:focus {
+    background-color: #ff4e00;
+    border-color: #ff4e00;
+}
+.profile-header-nav .nav-tabs li.active a, .profile-header-nav .nav-tabs li.active a:focus, .profile-header-nav .nav-tabs li.active a:hover {
+    color: #ff4e00;
+}
+.profile-header-nav .nav-tabs li a:hover {
+    color: #ff4e00;
+}
+.active a.btn.btn-pricing {
+    background: #ff4e00;
+    border-color:#ff4e00;
+}
+.simple-tab-style .nav-tabs > li.active > a, .simple-tab-style .nav-tabs > li.active > a:hover, .simple-tab-style .nav-tabs > li.active > a:focus {
+    background:#ff4e00;
+    border: 1px solid #ff4e00;
+}
+
+#nav-item {
+    text-transform: uppercase;
+    font-family: Gotham;
+    color: #FFFF;
+}
+
+#nav-item-sidebar {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Gotham;
+}
+
+/*Sidebar Overlay*/
+
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 290px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+         -o-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+    padding: 15px ;
+}
+
+/*Left*/
+.modal.left.fade .modal-dialog{
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+            transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog{
+    left: 0;
+}
+    
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+
+@media (max-width: 767px) {
+    .footer {
+        text-center: center !important;
+    }
+}
+
+.footer-title {
+    color: white;
+}
+
+/*Social Icons*/
+.social {
+    color: #fff;
+    margin: 5px;
+}
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Hover Social Icons
+*/
+ #social-fb:hover {
+    color: #3B5998;
+ }
+
+ #social-tw:hover {
+    color: #4099FF;
+ }
+
+ #social-ins:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+.active {
+   color: #E8C477;
+}
+
+.panel-body p {
+    color: #334E6F;
+    font-family: Gotham Light;
+}
+
+.nfobox_title div .infobox_content {
+    color: #334E6F;
+    font-family: Gotham Light;
+}
+
+.heading h1 {
+    font-family: Gotham Light;
+}
+
+.tr-single-body p {
+    color: #334E6F;
+    font-family: Gotham Light;
+}
+
+.amenities li {
+    color: #334E6F;
+    font-family: Gotham Light;
+}
+
+.ab-detail p {
+    font-family: Gotham Light;
+    text-align: justify;
+}
+.copy-right {
+    padding-top: 40px;
+}
+
+.plan small span {
+    color: #334E6F;
+}
+
+.testimonial-caption {
+    border: 2px solid #E8C477;
+}
+
+.grayish-bg {
+    background-color: #F7F7F7;
+}
+
+.btn-gold {
+    color: #FFFFFF;
+    background-color: #E6C576;
+    border: none;
+}
+
+.btn-gray {
+    background-color: #5B574C;
+    color: #FFFFFF;
+    border: none;
+}
+
